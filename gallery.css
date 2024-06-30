@@ -1,0 +1,83 @@
+/* Reset default margin and padding */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold font for brand */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Dark gray text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Main Content */
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 300px; /* Adjust height of gallery images */
+    object-fit: cover;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 600px; /* Adjust height of carousel images */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    padding: 0 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for carousel controls */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #fff; /* White color for carousel control icons */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10%;
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}

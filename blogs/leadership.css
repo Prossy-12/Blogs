@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold font for brand */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Dark gray text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Main Content */
+main {
+    min-height: calc(100vh - 116px); /* Adjust based on navbar and footer height */
+    padding-bottom: 50px; /* Ensure content isn't covered by footer */
+}
+
+.container {
+    margin-top: 20px; /* Add space above content */
+}
+
+article {
+    margin-bottom: 30px; /* Space below each article */
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #f8f9fa; /* Light text color */
+    text-align: center;
+    padding: 10px 0; /* Padding on top and bottom */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}

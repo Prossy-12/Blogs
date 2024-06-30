@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold font for brand */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Dark gray text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Landing Page Content */
+.landing-page {
+    margin-top: 20px; /* Add space above content */
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}

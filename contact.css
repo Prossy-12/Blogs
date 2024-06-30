@@ -1,0 +1,88 @@
+/* Reset default margin and padding */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold font for brand */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Dark gray text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Main Content */
+.container {
+    margin-top: 10px; /* Add space above content */
+    margin-bottom: 100px; /* Add space below content to accommodate footer */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10%;
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}
